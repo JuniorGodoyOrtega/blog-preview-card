@@ -76,6 +76,11 @@ body {
     color: var(--color-gray-950);
 }
 
+.title__card:hover {
+    color: var(--color-yellow);
+    cursor: pointer;
+}
+
 .description__card {
     line-height: 1.5;
     color: var(--color-gray-500);
@@ -96,8 +101,9 @@ body {
     display: block;
 }
 
-.autor__card {
+.autor__name {
     color: var(--color-gray-950);
+    font-size: var(--font-size-body-copy);
     padding-top: 8px;
     font-weight: 800;
 }
